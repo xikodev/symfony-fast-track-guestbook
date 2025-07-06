@@ -226,6 +226,15 @@
             "config/packages/notifier.yaml"
         ]
     },
+    "symfony/panther": {
+        "version": "2.2",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "main",
+            "version": "1.0",
+            "ref": "f6fcfe4c7a2903d7e8e8a919d8856d172e68dbc0"
+        }
+    },
     "symfony/routing": {
         "version": "6.4",
         "recipe": {
