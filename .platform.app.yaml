@@ -4,6 +4,7 @@ type: php:8.3
 
 runtime:
     extensions:
+        - amqp
         - apcu
         - blackfire
         - ctype
@@ -38,6 +39,7 @@ mounts:
 relationships:
     database: "database:postgresql"
     redis: "rediscache:redis"
+    rabbitmq: "queue:rabbitmq"
     
 hooks:
     build: |
